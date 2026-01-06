@@ -1,0 +1,123 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "586f7ad6-6959-4d0e-ba2c-bb9ffb8f2343",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "print('Hello World')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "27a65ebb-9b51-49ea-bca2-4b9510145aa0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import os\n",
+    "\n",
+    "cpu_num = os.cpu_count()\n",
+    "print(f\"Mi computadora tiene {cpu_num} núcleos de CPU\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "997d52a1-ed4a-4296-985c-b32cd0baeace",
+   "metadata": {},
+   "source": [
+    "## Texto e imágenes en un cuaderno\n",
+    "---\n",
+    "En Jupyter Notebook puedes mezclar:\n",
+    "* código;\n",
+    "* texto;\n",
+    "* imágenes."
+   ]
+  },
+  {
+   "attachments": {
+    "a15350dc-a9d6-424f-9339-76430aa0b262.webp": {
+     "image/webp": "UklGRjgLAABXRUJQVlA4ICwLAACQVQCdASraAQoBPp1Oo0ylpKeiIzL5YPATiWdu4XEq0PTiUvwthv6/Xra/Om9953p9F/Zb+zdxWRjoIKB+yvgBO27QvvL5s32Xmx/O68WeU/1/L+bl8v7OKxyIuFKi+SP2cVjkRcKVF8kfs4rHIi4UqL5I/ZxWORFwpUXyR+zisciLhSovkj9nFY5EXClQhiB0nsbyt+Kjbysu3o4Hl3lRfJHaOXZF1lpb5g+zisbdSA4U/6wMkZSPvur4SfsI5Foq2pHiCjdn049/kfimh6Zji2NHW/DuEONZ1iPU8Bo/cCAsOtrLuPVMQi+PoL6PkvEpIeR43c0ul/d+dkbs+hF2R3Qmz30KCzdCvqhfphkw0raAcE6ctlS5UUqL6v9dTGcrql7A/1OD6yeyxKSvMWWusFcBgFyZQpicUPuLzFhnT/vCk0D02Fj3rZFTH3ry8hDGP70qcW24XNVJSke5osdpg8grbunTtkxSHM44KhLkXLG0TLxnfp0Abnr8Rqv3eqHK/sragdImBz7kiPKjd4Uc8264LhXJ1CsEHGYOgedu5vPM3vlNETNewZPW1jyVBwnNOe1dHu2T72vN39FcwNOvL1ah3xzCCGEYXrsfO8WxzWWGTI6jpq8iYtGVPhRGrBKziuw6YIiAzNw3qNu2pkNk746x37y0Uhh0F6GuVnOgyvp9D12iDdaZFK2lbfGQDAfGLExOZ4DlsAwMEiCYfGBE7JKEywPJL9ijhBna9ZHvKhGYL92TrTgqFPlUl5kDCXDF2xGnhzC/8MKyGSdL22lKi+SP2cOQ6Zi8eb2Rw8kHs63lalbHIi4UqL5I/bnrisciLhSovkj9nFY5EXClRfJH7OKxyIuFKi+SP2cVjkRcKVF8kfs4rHIi4UqL5I/ZxWORFwpUXyR+zisciLhSovkj9nFY2gAA/v6cgAAAAAABqQP464pxPYiKohnveGIIjDdWuBzw8+o2QPsimip2t7buAPw2FeC4fw+4zXgrqahAH6lLIV3AOIWWvZb9AtB5T72est4BiAu3dyfM+mJgd2o0bmEsIqolLb069MDwhnbMT8/Jf+sMkcLdWEsDkNC1mYtce8ZNOa/IDROvKYZ4mU7CHoNMxBMLVZyi0z89h5FaAhJ1zfmVFYce6HUt5eyB9tMJZMdp2B/s62t+2Ksv08R92nWya9epiNBw7sIlvD+AwNOe/eDie1gyl3ookbTWj+M5D7QZW4jiAh21irIJICIr054ar8sTRWiDRFuyLI2N/O+tbNT/0AV4fs4UOyevq24mFVCkiEjr7RVkB0pR1LsIv2xskgDLXPIoK10lm+4IKgbM65ns7H7gkPOM6aZUpyh0K4+3DSYMwaZSsXbAJ8svpGivlT0HXqd7Ff/w+3HeHdLdMqzpDSg3y8xENvJEL/lyz//p8gKcNdGn//d9/IsT/LP6D1CxWdOhpSgi1rOBMWFwzie6GzRjBG10YUhpme72n6m5YGaX5HH8QrW7VTuwKwCPMNaevfdYaWoYgmm2M/lPFTFxqXqp6tlVU7HfUwLEPEwGDG+AuCeqIPy9h6svrHYf3bzyDYy59lCzoOnuZHFvGXKqTecC7z+0imvIN87CjgBVTQvEdaOBYipI95UIHMkSD2UQmVzsXu02p+YJ7+tbA8DrByQ9c068CqXlnvbx9+ifDyV+XxM/4DAe3hNFkPpJQK1AZa3Stx68b97RIAYRCmbdsL/s2kCFVRtnOCTTPv1rUEzHEuFGUt/nu3psZfdInclChOay6tuMOKrvc/9jxgsWlvDTq708AR5ZcmYOYvr2/MgNtavvNN1eiZrxsFPPT7pGgGfcih7V9y68mTFTQP2FQI9qS6WAqvgJapiXeKFe0ZSJRq3Y/J+9Il0rbT7k9FfPSfKFH8yRYaZuJsAPPvhCp6Z9yfotD8ePdvhotnQ1AQygBz4zYridTs3d8i5WXrKkD/rXBQsfiUmFCDjJcWX/AeVFDN1O3imZQuU0EPx+O292YEHFJPuGDDSjEvGAZIrNoAwpXuPiR2AN16XjQUUZRXLjt3udYt2bEzQjliNZiPdSW/pT2UrOdMgimoSQf0aUL2sTR4KmHEc1bDj6ihyRXBtroYYPMh4UHM3K8OlLVVnFVjqWr8NVfkurJKw+Lmjg6OEUTmbg0RN55EfnNaVz1C5X3YPRaYgF4KB4SnHfQI5laE+0bD9wTRItIUZjfKX6OiTgdZdHaEAT67Kxio7PBINsOaK6m6K2ghqwPy9O64MxK4kxdZIqZ96Y+m2A5Ljn0APVzoAcjD8ZvA5/lrHoqb0TvPTi+ZZb/3EqxXk9ieCi9a+wSsKF7qYGi1jGOgCxgmK3jbJjJbYqW2nZITEWuNxpSH8AXuKi8r/EEx3vhnBFMNc8/tItqwn3CMsAKPOnX9j1R5qAGf9B9KA6ihpzSuIZU3NSVThVx7w054nBqTilAG7TvxRka+rToG9oe0ZS4xfa8avBG/YqLcfcGdHFvKZQIuPPCkxVECijxvVIYM9HmsRmizhLrJEpsExsFwDwcS4r5D3iVMmPHem+6l7QVKxKmab7O3L2RziEfhhFBmZVIZ86G3OKhO7Vs73na+jZVdfBWPAFI1jWuMg5QVabDrhbf+Daqz7T1ZSyeFL7Nf2wQALJNhV7GZuZcJKCoiowMY7U20qFfczhmaIs6ltLIYYrVbYha27jTtDw/BYFe96KmrRM47N7sR0UTZfNxPfAmSUvVqyqK+mKaPVj+5D3L7u1ElIiBXyQHSClEQ0W2ictXSDld7eVwy7h2aWvLoKFlPvtZQLRLi++L9OwBHwG1f4nPMjy9RdHasp2cbiVqnWABOcl+lcL0EHMSX2tOliL8s8xnlbh2lnGekP24or6XopdfrQtiw4Gr9gK43ciSZf+tnDJcJyeZ1m0uY4LarrMx58N6p0P8XcOXh8H+qWhI5tMOM2QGnyPmOBKYqQ0/JHktPrkABFsJ7CBwxL6vVMXt9L7a+Mt0Mg30S1f8EkPROVOVqZe67Jbggjfk+f3k/tEEQM8hKwdXCtW7/QvC4h5LAV5RTJr2uBo04G/ZkZBKhHdtUSsgDsifULkUzgVIcrXdtQF8DuEtSbqZZXvPVyxjryOmuhmU8uWZrUeCX+do3n+PuLpkSviQMp+EpP5r1cVvzxRrYE/M/tw5hL8Qmer1HZXOZ4koVc/IUOEcJQAKsSFPu0LtSRHS83aX/eNA7SKaqfWIYIAMfQU2Ol9VaSQmKYs26kSTsOcAFA7Nd4oJUhW978ycSaz563+WCdegG4/zG4v/D/x48xZeOgni5YBIzc0LjZdV4anSK3mE1lI8eJK4/G6qFZKW9rZTBctZpRio8fbK2BL2nqdRM8gPmrQ/yjuzqiTwMKQafeh4dbi1sJ2iaJ9PSv6tEBUobfcs/qf5n8HAUobFkkHXU8lf+X/MYCYlVZUc5k7XXIEQdUvXxMjl7Se+7/Hf0UNJI0pIQpHmtJj3HTUV1ob1RCcARMyqlM5L19NCSppLWOnf57yit6TSaPMAhFSFRrj+2qZlJsmdDyoq3m2V8WkBqB9pU8aP6VKBve7dcQxaqz+rD279Vuh0lH3MNFXAegGqG2mVGpITnLHudtcrYhtQl2Jq6vUdz3n3ZU7viJ0ZrImCYe0K/vnDWiK4Rf2+RWzvR4u0FB50pHof3C2DRBS5emRnGrDHLCGylaELCeIkn88IpVMsrJvqIJn50hbZHznB5hxX633qftEw/giAJ0axkQtVIr1EzY1rIigpisJdDFhyQURS67x0jlRaYSwOiEqBzOstMwLUUF4urCOAAtCAAAAAAAAAAAAAAAA"
+    }
+   },
+   "cell_type": "markdown",
+   "id": "8a42dddc-dbe5-4d63-868b-66f499add37e",
+   "metadata": {},
+   "source": [
+    "![Python.webp](attachment:a15350dc-a9d6-424f-9339-76430aa0b262.webp)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "9c4d771a-9004-4427-b214-190332abeaa8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]'"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "import sys\n",
+    "sys.version #Como saber version de python"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "aafea19e-b3d6-4734-9f8a-6c5f2c586194",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2.2.3\n"
+     ]
+    }
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "print(pd.__version__)#Como saber version de libreria "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7d668918-fda8-4b8a-a940-375c374f1b6c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
